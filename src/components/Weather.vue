@@ -25,7 +25,7 @@ export default {
   },
   methods: {
     async fetchWeather() {
-      const apiKey = 'b3cec4f34c2ce3c6b9a8ab63d397fdf7';
+      const apiKey = 'ab35e668d7eddef9154a228d6ed3e2f0';
       this.error = null;
       try {
         const response = await fetch(
